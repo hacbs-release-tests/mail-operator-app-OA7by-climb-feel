@@ -23,7 +23,8 @@ spec:
         app.kubernetes.io/instance: mail-operator-component
     spec:
       containers:
-      - imagePullPolicy: Always
+      - image: quay.io/hacbs-release-tests/managed-release-team-tenant/mail-operator-app/mail-operator-component@sha256:85f6cb6a4319e2bb793406f8bb80be343fdf3adcfc1d41c0fd1dd5c0fcd60266
+        imagePullPolicy: Always
         name: container-image
         resources:
           limits:
