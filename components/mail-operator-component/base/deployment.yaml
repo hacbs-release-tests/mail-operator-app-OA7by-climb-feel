@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mail-operator-component
     spec:
       containers:
-      - image: quay.io/hacbs-release-tests/managed-release-team-tenant/mail-operator-app/mail-operator-component@sha256:12806ad274ef5bc2051a6f01272b0d3b7f0d30cfd4ded6997ed8548ab0d01059
+      - image: quay.io/hacbs-release-tests/managed-release-team-tenant/mail-operator-app/mail-operator-component@sha256:9e6748f5ab6b298d3eb4a0bd8b44f0a8a4f4f5afa856e796e3a2159e191eb34e
         imagePullPolicy: Always
         name: container-image
         resources:
